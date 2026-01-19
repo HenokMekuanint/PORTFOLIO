@@ -5,8 +5,8 @@ node_modules/
 build/
 dist/
 
-# Production/public static
-public/
+# Production static (keep public/ tracked for CRA/Vercel)
+# public/  <-- removed, public/ must be committed so build can find index.html
 
 # Environment files
 .env
